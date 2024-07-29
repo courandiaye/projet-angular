@@ -1,0 +1,95 @@
+.popup {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    display: flex;
+    position: fixed;
+    overflow-y: auto;
+    max-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    transition: none !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+.popup .popup-content {
+    padding: 2.4em;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    max-height: 96vh;
+    overflow: auto;
+}
+
+.popup .popup-content .popup-header{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.popup .popup-content .close-button {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    padding: .2em .3em .3em;
+    transition: .3s;
+}
+
+.myforms-popup h3 {
+    margin-top: 1.1em;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+
+.input-field:not(.naked) .f-input{
+    width: 100%;
+    color: inherit;
+    border-color: #dedede;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: .9em 1.2em;
+    min-height: 47px;
+    line-height: 1.3em;
+    box-shadow: none;
+}
+
+.myforms-popup h3 {
+    margin-top: 1.1em;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+
+.change-color-content{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 420px;
+}
+
+.change-color-content .change-color-item{
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #d8d8d8;
+}
+
+.add-folder-popup .apply-btn{
+    text-align: center;
+    margin-top: 1.5em;
+}
