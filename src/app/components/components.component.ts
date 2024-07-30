@@ -7,6 +7,13 @@ import { Router } from '@angular/router';
   styleUrl: './components.component.css'
 })
 export class ComponentsComponent implements OnInit{
+closeModal() {
+throw new Error('Method not implemented.');
+}
+modal: any;
+openModal($event: MouseEvent) {
+throw new Error('Method not implemented.');
+}
 
   constructor(private router: Router) {}
 
