@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Modal } from 
 
 @Component({
   selector: 'app-components',
@@ -11,9 +12,6 @@ closeModal() {
 throw new Error('Method not implemented.');
 }
 modal: any;
-openModal($event: MouseEvent) {
-throw new Error('Method not implemented.');
-}
 
   constructor(private router: Router) {}
 

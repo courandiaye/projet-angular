@@ -6,6 +6,7 @@ import { IndexComponent } from './index/index.component';
 import { ComponentsComponent } from './components/components.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { DossierComponent } from './dossier/dossier.component';
+import { EquipeComponent } from './components/equipe/equipe.component';
 
    const routes: Routes = [
   { path: "", component:IndexComponent},
@@ -14,13 +15,13 @@ import { DossierComponent } from './dossier/dossier.component';
   { path: "dashboard", component:ComponentsComponent},
   { path: "index", component:IndexComponent},
   { path: "CRÉER UN FORMULAIRE", component:FormulaireComponent},
-  { path: "creer-un-nouveau-dossier", component:DossierComponent}
-
+  { path: "creer-un-nouveau-dossier", component:DossierComponent},
+  { path: "equipe", component:EquipeComponent},
 
 
 ];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -9,6 +9,7 @@ import { IndexComponent } from './index/index.component';
 import { ComponentsComponent } from './components/components.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { DossierComponent } from './dossier/dossier.component';
+import { EquipeComponent } from './components/equipe/equipe.component';
 
 
 
@@ -21,7 +22,8 @@ import { DossierComponent } from './dossier/dossier.component';
     IndexComponent,
     ComponentsComponent,
     FormulaireComponent,
-    DossierComponent
+    DossierComponent,
+    EquipeComponent
   ],
   imports: [
     BrowserModule,
